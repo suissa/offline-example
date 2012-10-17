@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html manifest="offline.manifest">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Offline test page</title>
+<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+</head>
+<body>
+
+<p id="status">Online</p>
+
+<h1>Lista de Compras</h1>
+
+<form id="mainform" action="index.html" method="post">
+<fieldset>
+
+<label>Produto: <input type="text" id="produto" name="produto" value="" /></label>
+
+<button type="submit">Salvar</button>
+
+</fieldset>
+</form>
+
+<ul id="lista">
+</ul>	
+
+<script type="text/javascript" src="jquery-1.4.min.js"></script>
+<script type="text/javascript" src="offline.js"></script>
+<script type="text/javascript">
+	
+// for(var i=0, len=localStorage.length; i<len; i++) {
+//     var key = localStorage.key(i);
+//     var value = localStorage[key];
+//     var linha = "<li>"+value+"</li>";
+//     $("#lista").prepend(linha);
+// }
+</script>
+
+
+</body>
+</html>
