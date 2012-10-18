@@ -1,6 +1,7 @@
 # Offline-example
 
 use:
+    
     - make install # To install dependencies
 
     - make mongo # To up mongo deamon
@@ -10,6 +11,7 @@ use:
 ================================================
 
 Api:
+    
     - pull - /api/pull - [GET]
 
     - push - /api/push - [POST] - send: { data: "" }
