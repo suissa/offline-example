@@ -12,3 +12,9 @@ use:
 Api:
     - pull - /api/pull - [GET]
     - push - /api/push - [POST] - send: { data: "" }
+
+================================================
+
+### Note:
+
+    - If not running make command, use as root... "sudo"
