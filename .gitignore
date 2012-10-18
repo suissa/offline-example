@@ -2,5 +2,6 @@
 *.swo
 *.pyc
 node_modules/
+app/node_modules/
 keltc.json
 
