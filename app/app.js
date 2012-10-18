@@ -31,5 +31,5 @@ app.get('/api/pull', routes.offline.api.pull);
 app.post('/api/push', routes.offline.api.push);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log("Express server listening on port " + app.get('port'));
+  console.log("Offline Example server listening on port " + app.get('port'));
 });
