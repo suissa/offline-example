@@ -4,9 +4,9 @@ use:
     
     - make install # To install dependencies
 
-    - make mongo # To up mongo deamon
+    - make mongo # To up mongo daemon
 
-    - make run # To execute the server
+    - make run # To run the server
 
 ================================================
 
